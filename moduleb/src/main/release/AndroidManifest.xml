@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.quyunshuo.moduleb">
+
+    <application
+        android:allowBackup="true"
+        android:label="ModuleB"
+        android:supportsRtl="true">
+    </application>
+</manifest>
