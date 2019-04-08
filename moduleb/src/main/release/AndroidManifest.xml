@@ -5,5 +5,9 @@
         android:allowBackup="true"
         android:label="ModuleB"
         android:supportsRtl="true">
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
     </application>
 </manifest>

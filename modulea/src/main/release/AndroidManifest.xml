@@ -5,5 +5,13 @@
         android:allowBackup="true"
         android:label="ModuleA"
         android:supportsRtl="true">
+        <!--
+            android:exported="true" :是否显示
+            android:screenOrientation="portrait" :垂直
+            -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
     </application>
 </manifest>

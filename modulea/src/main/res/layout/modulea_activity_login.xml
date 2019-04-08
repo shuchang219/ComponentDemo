@@ -3,19 +3,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:gravity="center"
+    tools:context=".LoginActivity">
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="gotoModuleA"
-        android:text="跳转进入ModuleA" />
+        android:gravity="center"
+        android:text="This is LoginActivity"
+        android:textSize="50sp" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:onClick="gotoModuleB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="跳转进入ModuleB" />
+    <Button
+        android:onClick="gotoApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转进入主App" />
 </LinearLayout>

@@ -5,11 +5,11 @@
     <application
         android:name="debug.RegisterApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/moduleb_ic_launcher"
         android:label="ModuleB"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/moduleb_ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/moduleb_AppTheme">
         <activity android:name=".RegisterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

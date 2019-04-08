@@ -5,11 +5,11 @@
     <application
         android:name="debug.LoginApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/modulea_ic_launcher"
         android:label="ModuleA"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/modulea_ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/modulea_AppTheme">
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

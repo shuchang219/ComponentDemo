@@ -16,6 +16,7 @@ android {
         versionCode rootProject.ext.android.versionCode
         versionName rootProject.ext.android.versionName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        resourcePrefix "modulea_"
     }
     buildTypes {
         release {
@@ -30,7 +31,7 @@ android {
             } else {
                 manifest.srcFile 'src/main/release/AndroidManifest.xml'
                 java {
-                    exclude 'debug/**'
+                    exclude 'src/main/debug/**'
                 }
             }
         }
