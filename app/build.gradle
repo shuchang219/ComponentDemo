@@ -25,11 +25,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    if (rootProject.ext.isApplication) {
-        //这里一般引入一个base与common组件
-    } else {
-        implementation project(":modulea")
-        implementation project(":moduleb")
-    }
+
+    implementation project(":modulea")
+    implementation project(":moduleb")
 
 }
